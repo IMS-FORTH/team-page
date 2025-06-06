@@ -38,3 +38,10 @@
     padding-left: 10px;
     font-family: "Roboto", sans-serif;
 }
+.link-cv {
+    text-decoration: none;
+    color:inherit;
+}
+.link-cv:hover{
+    color:seagreen;
+}
