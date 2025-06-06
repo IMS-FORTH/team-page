@@ -1,6 +1,6 @@
 body {
     font-family: "Segoe UI", sans-serif;
-    background-color: #E5FFCC;
+    background-color: #DDEEFF; /* blu molto chiaro */
 }
 
 .section-header-box {
@@ -17,7 +17,7 @@ body {
 .section-title {
     font-weight: 700;
     font-size: 2.5rem;
-    color: #2A912A;
+    color: #1A4C99; /* blu scuro */
     margin-bottom: 10px;
     position: relative;
 }
@@ -27,7 +27,7 @@ body {
     display: block;
     width: 80px;
     height: 4px;
-    background-color: #30B630;
+    background-color: #2F72D6; /* blu medio */
     margin: 10px auto 0;
     border-radius: 2px;
 }
@@ -60,12 +60,12 @@ body {
 }
 
 .social-links a:hover {
-    color: #007bff;
+    color: #2F72D6; /* blu medio hover */
 }
 
 .period {
     margin-top: 40px;
-    border-bottom: 5px solid #30B630;
+    border-bottom: 5px solid #2F72D6; /* blu medio */
     width: 40%;
     padding-left: 10px;
     font-family: "Roboto", sans-serif;
@@ -73,14 +73,13 @@ body {
 
 .link-cv {
     text-decoration: none;
-    color: #2A912A;
+    color: #1A4C99; /* blu scuro */
 }
 
 .link-cv:hover {
-    color: #33CC33;
+    color: #2F72D6; /* blu medio */
 }
 
 .row {
     padding-top: 10px;
 }
-
