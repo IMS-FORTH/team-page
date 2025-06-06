@@ -1,10 +1,46 @@
-      body {
+body {
     font-family: "Segoe UI", sans-serif;
-    background-color: #E5FFCC; /* verde chiaro */
+    background-color: #E5FFCC;
+}
+
+.section-header-box {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 40px;
+    padding: 30px 20px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #2A912A;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #30B630;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #444;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
 
 .team-member {
-    background-color: #ffffff; /* riquadro bianco */
+    background-color: #ffffff;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
@@ -27,24 +63,24 @@
     color: #007bff;
 }
 
-.section-title {
-    font-weight: 600;
-}
-
 .period {
     margin-top: 40px;
-    border-bottom: 5px solid #30B630; /* verde scuro */
+    border-bottom: 5px solid #30B630;
     width: 40%;
     padding-left: 10px;
     font-family: "Roboto", sans-serif;
 }
+
 .link-cv {
     text-decoration: none;
-    color:#2A912A;
+    color: #2A912A;
 }
-.link-cv:hover{
-    color:#33CC33;
+
+.link-cv:hover {
+    color: #33CC33;
 }
-.row{
-    padding-top:10px;
+
+.row {
+    padding-top: 10px;
 }
+
