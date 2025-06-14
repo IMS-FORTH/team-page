@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="content">
                         <div class="description">
                             <div class="profile">
-                                <img src="${student.profileImg || '/static/img/profile.jpg'}" alt="Profile Picture ${student.name || ''}" class="profile-img">
+                                <img src="${student.profileImg}" alt="Profile Picture ${student.name || ''}" class="profile-img">
                             </div>
                             <div class="details">
                                 <div class="job">
