@@ -11,6 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 
 .card .content .description {
@@ -72,6 +73,13 @@
     background-position: center;
 }
 
+.card .content .call-to-action {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .card .content .call-to-action a i {
     font-size: 32px;
@@ -82,4 +90,46 @@
 .card .content .call-to-action a:hover i {
     opacity: 0.6;
     transition: .3s;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .card {
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .card .content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .card .content .description {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card .content .description .profile img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .card .content .description .details {
+        margin-top: 10px;
+    }
+
+    .card .content .description .details .job {
+        margin-bottom: 10px;
+    }
+
+    .card .content .description .details .name p,
+    .card .content .description .details .job p,
+    .card .content .description .details .bio p {
+        max-width: 100%;
+        text-align: center;
+    }
 }
