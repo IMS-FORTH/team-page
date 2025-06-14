@@ -3,7 +3,7 @@
       "name": "Michele Johnson",
       "job": "Software Engineering Student",
       "bio": "Passionate about web development and AI. Loves open source.",
-      "profileImg": "/static/img/profile.jpg",
+      "profileImg": "https://mikeslab.it/static/images/logo.png",
       "githubLink": "https://github.com/michele",
       "arrivalDate": "2023-06-10"
     },
@@ -11,7 +11,7 @@
       "name": "David Lee",
       "job": "Data Science Intern",
       "bio": "Exploring machine learning and big data. Enjoys hiking.",
-      "profileImg": "/static/img/profile.jpg",
+      "profileImg": "https://mikeslab.it/static/images/logo.png",
       "githubLink": "https://github.com/david",
       "arrivalDate": "2023-06-22"
     },
@@ -19,7 +19,7 @@
       "name": "Sophia Müller",
       "job": "UX Design Student",
       "bio": "Creating user-friendly interfaces. Interested in accessibility.",
-      "profileImg": "/static/img/profile.jpg",
+      "profileImg": "https://mikeslab.it/static/images/logo.png",
       "githubLink": "https://github.com/sophia",
       "arrivalDate": "2023-07-05"
     },
@@ -27,7 +27,7 @@
       "name": "Kenji Tanaka",
       "job": "Cybersecurity Analyst",
       "bio": "Focused on network security and ethical hacking.",
-      "profileImg": "/static/img/profile.jpg",
+      "profileImg": "https://mikeslab.it/static/images/logo.png",
       "githubLink": "https://github.com/kenji",
       "arrivalDate": "2023-07-15"
     },
@@ -35,7 +35,7 @@
       "name": "Maria Garcia",
       "job": "Robotics Engineering Student",
       "bio": "Building robots and working with embedded systems.",
-      "profileImg": "/static/img/profile.jpg",
+      "profileImg": "https://mikeslab.it/static/images/logo.png",
       "githubLink": "https://github.com/maria",
       "arrivalDate": "2024-01-20"
     }
