@@ -19,11 +19,10 @@
     <nav class="navbar primary-background">
         <div class="container-fluid p-3 d-flex justify-content-between navbar-shadow">
             <a class="navbar-brand" href="#">
-                <img src="/static/img/ims-gr.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                <span class="ubuntu-bold ms-4">IMS</span>
+                <img src="/static/img/ims-en.jpg" alt="Logo" width="142" class="d-inline-block align-text-top">
             </a>
             
-            <button class="action-btn">
+            <a class="action-btn text-decoration-none" href="https://www.ims.forth.gr/en/site/" target="_blank">
 
                 <div class="content">
                     
@@ -38,14 +37,75 @@
 
                 </div>
 
-            </button>
+            </a>
 
         </div>
     </nav>
+
+
+    <div class="wrapper">
+
+        <!-- Title and Search bar -->
+        <div class="d-flex w-100 justify-content-between d-md-column">
+
+            <div class="search-text d-flex align-items-center">
+    
+                <div class="title">
+                    <h1 class="ubuntu-bold primary-color">
+                        <span class="erasmus-animated-bg-wrapper">Erasmus</span>
+                    Students</h1>
+                </div>
+    
+            </div>
+    
+            <div class="search d-flex justify-content-between align-items-center gap-3 d-md-column">
+    
+                <div class="search-bar">
+                    <input type="search" class="search-input ubuntu-light" placeholder="Search..." aria-label="Search">
+                    <i class="bi bi-search search-icon"></i>
+                </div>
+    
+                <div class="suggestion-btn h-100">
+                    <button class="action-btn h-100">
+
+                        <div class="content">
+                            
+                            <div class="d-flex justify-content-between align-items-center gap-3">
+                                <p class="ubuntu-bold primary-color mb-0 fs-5">
+                                    SUGGEST EDIT
+                                </p>
+        
+                                <i class="bi bi-lightbulb font-weight-bold primary-color"></i>
+
+                            </div>
+        
+                        </div>
+        
+                    </button>
+                </div>
+    
+    
+            </div>
+    
+        </div>
+        
+        <!-- Subtitle and Card view -->
+        
+        <div class="d-flex flex-column pt-4 w-100">
+            <p class="opacity-75 ubuntu-light mb-0">
+                <span>Total Students: </span>
+                <span id="total-students-count"></span>
+            </p>
+
+            <div id="students"></div>
+        </div>
+
+
+    </div>
   
   
     
-
+    <script src="static/js/script.js"></script>
 
 </body>
 
