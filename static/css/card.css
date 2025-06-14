@@ -1,0 +1,85 @@
+.card {
+    width: 420px;
+    min-height: 150px;
+    border-radius: 16px;
+    border: 1px solid var(--dark-gray);
+    background-color: var(--card-background);
+}
+
+.card .content {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .content .description {
+    display: flex;
+    align-items: center;
+}
+
+.card .content .description .profile img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+.card .content .description .details .name p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    max-width: 180px;;
+    margin: 0;
+    order: 1
+}
+
+.card .content .description .details .job p {
+    color: var(--light-blue);
+    font-family: "Ubuntu Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    order: 0;
+    margin: 0;
+}
+
+.card .content .description .details .bio p {
+    opacity: .5;
+    font-family: "Ubuntu Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    order: 2;
+    max-width: 200px;
+}
+
+.card .content .description .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.card .content .call-to-action a {
+    text-decoration: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.card .content .call-to-action a i {
+    font-size: 32px;
+    color: var(--black);
+    transition: .3s;
+}
+
+.card .content .call-to-action a:hover i {
+    opacity: 0.6;
+    transition: .3s;
+}

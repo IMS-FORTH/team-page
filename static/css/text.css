@@ -1,0 +1,43 @@
+.title h1 {
+
+    font-size: 32px;
+    font-weight: 800;
+
+}
+
+
+.erasmus-animated-bg-wrapper {
+    /* Apply the gradient as a background to the span */
+    background: linear-gradient(270deg, #66ccff, #9933ff, #ff3399, #66ccff);
+    background-size: 400% 400%; /* Makes the gradient larger for smooth animation */
+    
+    /* Clip the background to the text */
+    -webkit-background-clip: text; /* For Safari/Chrome */
+    background-clip: text;
+    
+    /* Make the text color transparent so the background shows through */
+    color: transparent;
+    
+    /* Apply the animation to the background of the span */
+    animation: fluidBackgroundShift 10s ease infinite;
+    
+    /* Ensures the span behaves correctly for background clipping */
+    display: inline-block; 
+}
+
+/* 
+   The ::before pseudo-element is not needed for the text color gradient effect.
+   You can remove the .erasmus-animated-bg-wrapper::before rule if it's not used for anything else.
+*/
+
+@keyframes fluidBackgroundShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
