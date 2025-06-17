@@ -91,6 +91,10 @@
     justify-content: center;
 }
 
+.card .content .description .actions {
+    flex-direction: column;
+}
+
 
 .card .content .call-to-action a i {
     font-size: 32px;

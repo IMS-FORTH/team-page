@@ -124,10 +124,17 @@ document.addEventListener('DOMContentLoaded', () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="call-to-action">
-                            <a href="${student.githubLink || '#'}" target="_blank" rel="noopener noreferrer" aria-label="${student.name || 'Student'}'s GitHub profile">
-                                <i class="bi bi-github"></i>
-                            </a>
+                        <div class="actions">
+                            <div class="call-to-action">
+                                <a href="${student.githubLink || '#'}" target="_blank" rel="noopener noreferrer" aria-label="${student.name || 'Student'}'s GitHub profile">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                            </div>
+                            <div class="call-to-action">
+                                <a href="${student.cv || '#'}" target="_blank" rel="noopener noreferrer" aria-label="${student.name || 'Student'}'s portfoglio">
+                                    <i class="bi bi-file-earmark-person"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 `;

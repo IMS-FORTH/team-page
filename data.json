@@ -1,43 +1,26 @@
 [
     {
-      "name": "Michele Johnson",
-      "school":"Panetti Pitagora Highschool",
-      "job": "Software Engineering Student",
-      "bio": "Passionate about web development and AI. Loves open source.",
-      "profileImg": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=140",
-      "githubLink": "https://github.com/michele",
-      "arrivalDate": "2023-06-10"
+      "name": "Michele Cippone",
+      "school":"I.T.T. Panetti Pitagora Highschool",
+      "job": "IT Student",
+      "bio": "Creative and passionate developer aiming to make a positive impact on the world.",
+      "profileImg": "static/img/IMG_4255.jpg",
+      "githubLink": "https://github.com/MichealAPI",
+      "cv": "https://mikeslab.it/",
+      "arrivalDate": "2025-06-05"
     },
+
     {
-      "name": "David Lee",
-      "job": "Data Science Intern",
-      "bio": "Exploring machine learning and big data. Enjoys hiking.",
-      "profileImg": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=140",
-      "githubLink": "https://github.com/david",
-      "arrivalDate": "2023-06-22"
-    },
-    {
-      "name": "Sophia Müller",
-      "job": "UX Design Student",
-      "bio": "Creating user-friendly interfaces. Interested in accessibility.",
-      "profileImg": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=140",
-      "githubLink": "https://github.com/sophia",
-      "arrivalDate": "2023-07-05"
-    },
-    {
-      "name": "Kenji Tanaka",
-      "job": "Cybersecurity Analyst",
-      "bio": "Focused on network security and ethical hacking.",
-      "profileImg": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=140",
-      "githubLink": "https://github.com/kenji",
-      "arrivalDate": "2023-07-15"
-    },
-    {
-      "name": "Maria Garcia",
-      "job": "Robotics Engineering Student",
-      "bio": "Building robots and working with embedded systems.",
-      "profileImg": "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?semt=ais_hybrid&w=140",
-      "githubLink": "https://github.com/maria",
-      "arrivalDate": "2024-01-20"
+      "name": "Alessia Minervini",
+      "school":"I.I.S.S. G. Ferraris Molfetta",
+      "job": "IT Student",
+      "bio": "Passionate and reliable student learning and collaborating in dynamic environments with a strong focus on teamwork and innovation.",
+      "profileImg": "static/img/foto (1).jpg",
+      "githubLink": "https://github.com/alessiaminervini",
+      "cv": "https://alessiaminervini.github.io/CV-Alessia/",
+      "arrivalDate": "2025-06-05"
     }
+
+
+    
 ]
