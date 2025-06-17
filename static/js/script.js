@@ -99,6 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 cardDiv.className = 'card';
                 // Add data attributes for filtering
                 cardDiv.dataset.name = (student.name || '').toLowerCase();
+                cardDiv.dataset.school = (student.school || '').toLowerCase();
                 cardDiv.dataset.bio = (student.bio || '').toLowerCase();
                 cardDiv.dataset.job = (student.job || 'student').toLowerCase(); // Default to 'student' if job is not present
 
@@ -114,6 +115,9 @@ document.addEventListener('DOMContentLoaded', () => {
                                 </div>
                                 <div class="name">
                                     <p>${student.name || 'N/A'}</p>
+                                </div>
+                                <div class="school">
+                                    <p>${student.school || 'N/A'}</p>
                                 </div>
                                 <div class="bio">
                                     <p>${student.bio || 'No bio available.'}</p>
