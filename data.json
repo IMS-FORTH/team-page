@@ -4,7 +4,7 @@
       "school":"I.T.T. Panetti Pitagora Highschool",
       "job": "IT Student",
       "bio": "Creative and passionate developer aiming to make a positive impact on the world.",
-      "profileImg": "static/img/IMG_4255.jpg",
+      "profileImg": "static/img/michele_cippone.jpg",
       "githubLink": "https://github.com/MichealAPI",
       "cv": "https://mikeslab.it/",
       "arrivalDate": "2025-06-05"
@@ -15,9 +15,20 @@
       "school":"I.I.S.S. G. Ferraris Molfetta",
       "job": "IT Student",
       "bio": "Passionate and reliable student learning and collaborating in dynamic environments with a strong focus on teamwork and innovation.",
-      "profileImg": "static/img/foto (1).jpg",
+      "profileImg": "static/img/alessia_minervini.jpg",
       "githubLink": "https://github.com/alessiaminervini",
       "cv": "https://alessiaminervini.github.io/CV-Alessia/",
+      "arrivalDate": "2025-06-05"
+    },
+
+    {
+      "name": "Damiano Giangreogrio",
+      "school":"I.I.S.S. G. Ferraris Molfetta",
+      "job": "IT Student",
+      "bio": "Passionate and reliable student learning and collaborating in dynamic environments with a strong focus on teamwork and innovation.",
+      "profileImg": "static/img/damiano_giangregorio.jpg",
+      "githubLink": "https://github.com/DamianoGiangregorio",
+      "cv": "https://damianogiangregorio.github.io/CV-Damiano/",
       "arrivalDate": "2025-06-05"
     }
 
