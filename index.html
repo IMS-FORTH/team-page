@@ -1,106 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Interns Team Page</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="logo.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erasmus Students</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="static/css/index.css">
 </head>
-<body>
 
-<section class="py-5">
-  <div class="container">
+<body class="default-bg">
+    
 
-    <!-- Section Header -->
-    <div class="section-header-box text-center p-4 mb-5">
-      <h2 class="section-title">Internship Team 2025</h2>
-      <p class="subtitle">GeoSat ReSeArch Lab, IMS-FORTH</p>
-      <p class="text-muted">A group of Italian students becoming tomorrow’s researchers and developers</p>
-    </div>
 
-    <!-- May - June -->
-    <h2 class="text-2xl fw-bold border-bottom border-4 border-primary mb-4">May - June</h2>
-    <div class="row g-4">
+    <nav class="navbar primary-background">
+        <div class="container-fluid p-3 d-flex justify-content-between navbar-shadow">
+            <a class="navbar-brand" href="#">
+                <img src="https://github.com/MichealAPI/IMS/blob/master/static/img/ims-en.jpg?raw=true" alt="Logo" width="142" class="d-inline-block align-text-top">
+            </a>
+            
+            <a class="action-btn text-decoration-none" href="https://www.ims.forth.gr/en/site/" target="_blank">
 
-      <!-- Team Member 1 -->
-      <div class="col-lg-3 col-md-6">
-        <div class="team-member text-center p-4">
-          <img src="photos/giulia-aureli.jpg" alt="Aureli Giulia" class="mb-4 shadow img-fluid">
-          <h5 class="mb-1">
-            <a class="link-cv" href="https://giu0831.github.io/CV/">Giulia Aureli</a>
-          </h5>
-          <p class="small mb-3">Passionate about coding and problem-solving. Keen to apply technical skills to real-world challenges.</p>
-          <div class="social-links">
-            <a href="https://github.com/giu0831"><i class="fab fa-github"></i></a>
-          </div>
+                <div class="content">
+                    
+                    <div class="d-flex justify-content-between align-items-center gap-3">
+                        <p class="ubuntu-bold primary-color mb-0">
+                            VISIT US
+                        </p>
+
+                        <i class="bi bi-box-arrow-up-right font-weight-bold primary-color"></i>
+
+                    </div>
+
+                </div>
+
+            </a>
+
         </div>
-      </div>
+    </nav>
 
-      <!-- Team Member 2 -->
-      <div class="col-lg-3 col-md-6">
-        <div class="team-member text-center p-4">
-          <img src="photos/lucia-abenante.jpg" alt="Abenante Lucia" class="mb-4 shadow img-fluid">
-          <h5 class="mb-1">
-            <a class="link-cv" href="https://lu0804.github.io/CVLuciaAbenate/">Lucia Abenante</a>
-          </h5>
-          <p class="small mb-3">I enjoy coding and web development. I want to use my technical skills to work on real projects and help find smart solutions.</p>
-          <div class="social-links">
-            <a href="https://github.com/Lu0804"><i class="fab fa-github"></i></a>
-          </div>
+
+    <div class="wrapper">
+
+        <!-- Title and Search bar -->
+        <div class="d-flex w-100 justify-content-between d-md-column">
+
+            <div class="search-text d-flex align-items-center">
+    
+                <div class="title">
+                    <h1 class="ubuntu-bold primary-color">
+                        <span class="erasmus-animated-bg-wrapper">Erasmus</span>
+                    Students</h1>
+                </div>
+    
+            </div>
+    
+            <div class="search d-flex justify-content-between align-items-center gap-3 d-md-column">
+    
+                <div class="search-bar">
+                    <input type="search" class="search-input ubuntu-light" placeholder="Search..." aria-label="Search">
+                    <i class="bi bi-search search-icon"></i>
+                </div>
+    
+    
+    
+            </div>
+    
         </div>
-      </div>
+        
+        <!-- Subtitle and Card view -->
+        
+        <div class="d-flex flex-column pt-4 w-100">
+            <p class="opacity-75 ubuntu-light mb-0">
+                <span>Total Students: </span>
+                <span id="total-students-count"></span>
+            </p>
 
-    </div>
-
-    <!-- June - July -->
-    <h2 class="text-2xl fw-bold border-bottom border-4 border-primary mt-5 mb-4">June - July</h2>
-    <div class="row g-4">
-
-      <!-- Team Member 3 -->
-      <div class="col-lg-3 col-md-6">
-        <div class="team-member text-center p-4">
-          <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="John Lee" class="mb-4 shadow img-fluid">
-          <h5 class="mb-1">John Lee</h5>
-          <p class="small mb-3">Interested in software development, cloud infrastructure, and research tools for geospatial science.</p>
-          <div class="social-links">
-            <a href="#"><i class="fab fa-github"></i></a>
-          </div>
+            <div id="students"></div>
         </div>
-      </div>
 
-      <!-- Team Member 4 -->
-      <div class="col-lg-3 col-md-6">
-        <div class="team-member text-center p-4">
-          <img src="https://randomuser.me/api/portraits/women/22.jpg" alt="Elena Papadaki" class="mb-4 shadow img-fluid">
-          <h5 class="mb-1">Elena Papadaki</h5>
-          <p class="small mb-3">Loves coding, environmental modeling, and using tech to solve sustainability challenges.</p>
-          <div class="social-links">
-            <a href="#"><i class="fab fa-github"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Team Member 5 -->
-      <div class="col-lg-3 col-md-6">
-        <div class="team-member text-center p-4">
-          <img src="photos/foto.jpg" alt="Minervini Alessia" class="mb-4 shadow img-fluid">
-          <h5 class="mb-1">
-            <a class="link-cv" href="https://alessiaminervini.github.io/CV-Alessia/">Alessia Minervini</a>
-          </h5>
-          <p class="small mb-3">I enjoy coding and web development. I want to use my technical skills to work on real projects and help find smart solutions.</p>
-          <div class="social-links">
-            <a href="https://github.com/alessiaminervini"><i class="fab fa-github"></i></a>
-          </div>
-        </div>
-      </div>
 
     </div>
-
-  </div>
-</section>
+  
+  
+    
+    <script src="static/js/script.js"></script>
 
 </body>
+
+
 </html>

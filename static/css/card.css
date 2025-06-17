@@ -1,0 +1,150 @@
+.card {
+    width: 480px;
+    min-height: 150px;
+    border-radius: 20px;
+    border: 1px solid var(--dark-gray);
+    background-color: var(--card-background);
+}
+
+.card .content {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.card .content .description {
+    display: flex;
+    align-items: center;
+}
+
+.card .content .description .profile img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+.card .content .description .details .name p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    max-width: 240px;
+    margin: 0;
+    order: 1
+}
+
+.card .content .description .details .school p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 180px;;
+    margin: 0;
+    order: 1
+}
+
+.card .content .description .details .job p {
+    color: var(--light-blue);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    order: 0;
+    margin: 0;
+}
+
+.card .content .description .details .bio p {
+    opacity: .5;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    order: 2;
+    max-width: 200px;
+}
+
+.card .content .description .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.card .content .call-to-action a {
+    text-decoration: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card .content .call-to-action {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .content .description .actions {
+    flex-direction: column;
+}
+
+
+.card .content .call-to-action a i {
+    font-size: 32px;
+    color: var(--black);
+    transition: .3s;
+}
+
+.card .content .call-to-action a:hover i {
+    opacity: 0.6;
+    transition: .3s;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .card {
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .card .content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .card .content .description {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card .content .description .profile img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .card .content .description .details {
+        margin-top: 10px;
+    }
+
+    .card .content .description .details .job {
+        margin-bottom: 10px;
+    }
+
+    .card .content .description .details .name p,
+    .card .content .description .details .job p,
+    .card .content .description .details .bio p {
+        max-width: 100%;
+        text-align: center;
+    }
+}

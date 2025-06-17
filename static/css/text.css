@@ -1,0 +1,35 @@
+.title h1 {
+
+    font-size: 32px;
+    font-weight: 800;
+
+}
+
+
+.erasmus-animated-bg-wrapper {
+    background: linear-gradient(270deg, #66ccff, #9933ff, #ff3399, #66ccff);
+    background-size: 400% 400%; /* smooth? */
+    
+    /* Clip the background to the text */
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+    /* Having the text color transparent so the background shows through */
+    color: transparent;
+    
+    animation: fluidBackgroundShift 10s ease infinite;
+    
+    display: inline-block; 
+}
+
+@keyframes fluidBackgroundShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

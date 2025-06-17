@@ -1,0 +1,48 @@
+[
+    {
+      "name": "Michele Cippone",
+      "school":"I.T.T. Panetti Pitagora Highschool",
+      "job": "IT Student",
+      "bio": "Creative and passionate developer aiming to make a positive impact on the world.",
+      "profileImg": "static/img/michele_cippone.jpg",
+      "githubLink": "https://github.com/MichealAPI",
+      "cv": "https://mikeslab.it/",
+      "arrivalDate": "2025-06-05"
+    },
+
+    {
+      "name": "Alessia Minervini",
+      "school":"I.I.S.S. G. Ferraris Molfetta",
+      "job": "IT Student",
+      "bio": "Passionate and reliable student learning and collaborating in dynamic environments with a strong focus on teamwork and innovation.",
+      "profileImg": "static/img/alessia_minervini.jpg",
+      "githubLink": "https://github.com/alessiaminervini",
+      "cv": "https://alessiaminervini.github.io/CV-Alessia/",
+      "arrivalDate": "2025-06-05"
+    },
+
+    {
+      "name": "Damiano Giangreogrio",
+      "school":"I.I.S.S. G. Ferraris Molfetta",
+      "job": "IT Student",
+      "bio": "Passionate and reliable student learning and collaborating in dynamic environments with a strong focus on teamwork and innovation.",
+      "profileImg": "static/img/damiano_giangregorio.jpg",
+      "githubLink": "https://github.com/DamianoGiangregorio",
+      "cv": "https://damianogiangregorio.github.io/CV-Damiano/",
+    },
+
+    {
+
+      "name": "Francesco Scanni",
+      "school":"I.T.T. Panetti Pitagora Highschool",
+      "job": "IT Student",
+      "bio": "Really keen to learn and passionate student improving his IT skills and AI knowledge.",
+      "profileImg": "static/img/pfpFrenk.jpeg",
+      "githubLink": "https://github.com/FrancescoScanni",
+      "cv": "https://francescoscanni.github.io/CV-Erasmus/",
+      "arrivalDate": "2025-06-05"
+    }
+
+
+    
+]
