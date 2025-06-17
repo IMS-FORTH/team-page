@@ -28,11 +28,14 @@
       "bio": "Passionate and reliable student learning and collaborating in dynamic environments with a strong focus on teamwork and innovation.",
       "profileImg": "static/img/damiano_giangregorio.jpg",
       "githubLink": "https://github.com/DamianoGiangregorio",
+<<<<<<< HEAD
       "cv": "https://damianogiangregorio.github.io/CV-Damiano/"
+=======
+      "cv": "https://damianogiangregorio.github.io/CV-Damiano/",
+      "arrivalDate": "2025-06-05"
+>>>>>>> michael
     },
-
     {
-
       "name": "Francesco Scanni",
       "school":"I.T.T. Panetti Pitagora Highschool",
       "job": "IT Student",
@@ -41,8 +44,25 @@
       "githubLink": "https://github.com/FrancescoScanni",
       "cv": "https://francescoscanni.github.io/CV-Erasmus/",
       "arrivalDate": "2025-06-05"
+    },
+    {
+      "name": "Giulia Aureli",
+      "school":"Franchetti Salviani Technical",
+      "job": "IT Student",
+      "bio": "Passionate about coding and problem-solving. Keen to apply technical skills to real-world challenges.",
+      "profileImg": "static/img/giulia-aureli.jpg",
+      "githubLink": "https://github.com/giu0831",
+      "cv": "https://giu0831.github.io/CV/",
+      "arrivalDate": "2025-05-05"
+    },
+    {
+      "name": "Lucia Abenante",
+      "school":"Franchetti Salviani Technical Institute",
+      "job": "IT Student",
+      "bio": "I enjoy coding and web development. I want to use my technical skills to work on real projects and help find smart solutions",
+      "profileImg": "static/img/lucia-abenante.jpg",
+      "githubLink": "https://github.com/Lu0804",
+      "cv": "https://lu0804.github.io/CVLuciaAbenate/",
+      "arrivalDate": "2025-05-05"
     }
-
-
-    
 ]
