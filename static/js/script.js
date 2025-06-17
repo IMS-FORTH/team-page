@@ -50,6 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return dateA - dateB;
         });
 
+
         const groupedStudents = sortedStudents.reduce((acc, student) => {
             try {
                 const date = new Date(student.arrivalDate);
@@ -75,6 +76,8 @@ document.addEventListener('DOMContentLoaded', () => {
             if (isNaN(dateA.getTime()) || isNaN(dateB.getTime())) return 0;
             return dateA - dateB;
         });
+
+        monthOrder.reverse()
 
         monthOrder.forEach(monthYear => {
             // 1. Create and append the month separator structure
