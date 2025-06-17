@@ -58,7 +58,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     console.warn("Invalid arrivalDate for student:", student.name, student.arrivalDate, "- skipping this student for grouping.");
                     return acc; // Skip student with invalid date
                 }
-                const monthYear = date.toLocaleString('default', { month: 'long', year: 'numeric' });
+                const yearName = date.toLocaleString('default', { month: 'long', year: 'numeric' });
+                
+                // first uppercase
+                const monthYear = yearName.charAt(0).toUpperCase() + yearName.slice(1);
+
                 if (!acc[monthYear]) {
                     acc[monthYear] = [];
                 }
