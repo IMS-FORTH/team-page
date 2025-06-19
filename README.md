@@ -24,12 +24,18 @@ This project serves as a collaborative GitHub Page for all interns to introduce 
    - Enable GitHub Pages from the repository settings.
 
 2. **Add Yourself to the Team Page**
-   - Fork this repository (team page repo).
-   - In the main `index.html` or `team.html`, add a short profile card or list item with:
+   - Clone this repository (team page repo).
+   - In the main `index.html`, add a short profile card or list item with:
      - Your full name
      - A short bio
      - A link to your personal GitHub Page (e.g., https://yourusername.github.io)
-   - Submit a Pull Request (PR) to the main branch of this repository.
+       
+       **in the latest version the card is added dynamically by pulling from the data.json
+       Edit the data.json to include an object for yourself.
+       Object parameters (name/value pairs) needed are
+       "name", "school", "job", "bio", "profileImg", "githubLink", "cv", and "arrivalDate"
+       "cv" being the link to your personal GitHub Page (e.g., https://yourusername.github.io)
+   - Commit and push your changes to the main branch of this repository.
 
 ---
 
