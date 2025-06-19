@@ -33,9 +33,13 @@ This project serves as a collaborative GitHub Page for all interns to introduce 
        **in the latest version the card is added dynamically by pulling from the data.json
        Edit the data.json to include an object for yourself.
        Object parameters (name/value pairs) needed are
-       "name", "school", "job", "bio", "profileImg", "githubLink", "cv", and "arrivalDate"
+       "name", "school", "job", "bio", "profileImg", "githubLink", "cv", and "arrivalDate".
+       
        "cv" being the link to your personal GitHub Page (e.g., https://yourusername.github.io)
-   - Commit and push your changes to the main branch of this repository.
+  
+       Update the README.md if needed
+       
+      - Commit and push your changes to the main branch of this repository.
 
 ---
 
